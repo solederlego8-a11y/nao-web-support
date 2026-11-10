@@ -3,109 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>店舗・EC向け ECサイト制作と集客支援｜nao</title>
-<meta name="description" content="飲食・小売・美容・食品販売など店舗とD2Cのための、ECサイト制作（Shopify／BASE・14.8万円〜）と商品ページ作り、SNS運用代行「Socialt」、Googleマップ・LINE整備。月額2万円〜。まずは無料診断から。">
+<title>店舗・EC向け｜ECサイト制作とSNS運用｜nao</title>
+<meta name="description" content="店舗・小売・D2C向け。Shopify／BASEのEC制作14.8万円〜、商品ページ作りとSNS運用で、来店とネット販売をつなぎ直します。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/img.css">
 </head>
 <body>
+<!-- BRAND: 屋号が決まったら .brand-name と title・運営者表記を差し替える -->
 <header class="site">
   <div class="header-in">
-    <a class="brand" href="../index.html"><span class="brand-mark">n</span><span><span class="brand-name">nao</span><br><span class="brand-sub">ホームページ・EC・SNS運用支援</span></span></a>
-    <button class="nav-toggle" aria-label="メニュー">☰</button>
-    <nav class="main"><ul>
-      <li><a href="../index.html">ホーム</a></li>
-      <li class="has-drop"><a href="../index.html#services">サービス ▾</a>
-        <div class="drop">
-          <div class="drop-label">対象から選ぶ</div>
-          <a href="../b2b/"><b>BtoB中小向け</b><span>建設・製造・設備 ― HPと採用SNSの立て直し</span></a>
-          <a href="../shop-ec/"><b>店舗・EC向け</b><span>飲食・小売・美容・食品 ― 集客とネット販売</span></a>
-          <div class="drop-label">サービスから選ぶ</div>
-          <a href="../sns/"><b>SNS運用代行「Socialt」</b><span>止まったSNSの再開と月8投稿からの運用</span></a>
-          <a href="../index.html#services"><b>ホームページ制作・更新</b><span>制作9.8万円〜／更新は月額で代行</span></a>
-          <a href="#ec"><b>ECサイト制作</b><span>Shopify／BASE・商品登録20点まで込み</span></a>
-          <a href="../blog/"><b>ブログ・記事制作</b><span>SEO／AI検索に拾われる記事を月2本</span></a>
-        </div></li>
-      <li><a href="../index.html#pricing">料金</a></li>
-      <li><a href="../blog/">ブログ</a></li>
-      <li><a href="../index.html#flow">進め方</a></li>
-      <li><a href="../index.html#faq">FAQ</a></li>
-      <li><a href="../index.html#about">運営者</a></li>
-      <li class="header-cta"><a class="btn sm terra" href="#diagnosis">無料診断</a></li>
-    </ul></nav>
+    <a class="brand" href="../index.html"><span class="brand-mark">n</span><span><span class="brand-name">nao</span><span class="brand-sub">ホームページ・EC・SNS運用支援</span></span></a>
+    <button class="nav-toggle" aria-label="メニュー" aria-expanded="false">☰</button>
+    <nav class="main" aria-label="グローバルナビ">
+      <ul>
+        <li><a href="../index.html">ホーム</a></li>
+        <li class="has-drop"><button type="button" aria-haspopup="true">サービス ▾</button>
+          <div class="drop">
+            <div class="drop-label">対象から選ぶ</div>
+            <a href="../b2b/"><b>BtoB中小向け</b><span>建設・製造・設備 ― HPと採用SNSの立て直し</span></a>
+            <a href="../shop-ec/"><b>店舗・EC向け</b><span>飲食・小売・美容・食品 ― 集客とネット販売</span></a>
+            <div class="drop-label">サービスから選ぶ</div>
+            <a href="../sns/"><b>SNS運用代行「Socialt」</b><span>止まったSNSの再開と月8投稿からの運用</span></a>
+            <a href="../index.html#services"><b>ホームページ制作・更新</b><span>制作9.8万円〜／更新は月額で代行</span></a>
+            <a href="../shop-ec/#ec"><b>ECサイト制作</b><span>Shopify／BASE・商品登録20点まで込み</span></a>
+            <a href="../blog/"><b>ブログ・記事制作</b><span>SEO／AI検索に拾われる記事を月2本</span></a>
+          </div>
+        </li>
+        <li><a href="../index.html#pricing">料金</a></li>
+        <li><a href="../blog/">ブログ</a></li>
+        <li><a href="../index.html#flow">進め方</a></li>
+        <li><a href="../index.html#faq">FAQ</a></li>
+        <li><a href="../index.html#about">運営者</a></li>
+        <li class="header-cta"><a class="btn sm gold" href="../index.html#diagnosis">無料診断</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<div class="page-hero shop">
-  <div class="wrap">
-    <div class="eyebrow" style="color:var(--terra)">For Shop / EC ― 店舗・小売・D2C</div>
-    <h1>お店のファンを、<br>ネットでも買える形に。</h1>
-    <p class="lead">実店舗で売れているものは、ネットでも売れる形にできます。ECサイトの制作から商品ページ作り、日々の発信まで。Googleマップ・Instagram・LINEとECを、ひとつの流れに組みます。</p>
-    <div class="hero-cta"><a class="btn terra" href="#diagnosis">無料診断を受ける</a><a class="btn ghost" href="../index.html#pricing">料金を見る</a></div>
+<div class="page-hero"><div class="bg img-shop"></div><div class="wrap">
+  <div class="eyebrow">For Shop / EC ― 店舗・小売・D2C</div><h1>お店のファンを、<br>ネットでも買える形に。</h1><p class="lead">実店舗で気に入ってくれた人が、家に帰って検索したときに買える受け皿があるか。EC・Googleマップ・Instagram・LINEを、ひとつの流れに組み直します。</p>
+  <div class="hero-cta" style="margin-top:26px"><a class="btn gold" href="../index.html#diagnosis">無料診断を受ける</a><a class="btn ghost" href="../index.html#pricing">料金を見る</a></div>
+  <p class="img-note">※写真はイメージです</p>
+</div></div>
+<section id="ec"><div class="wrap">
+  <div class="eyebrow">Menu</div><h2>店舗・EC向けのメニュー</h2>
+  <div class="cards2">
+    <div class="card"><h3>ECサイト制作（Shopify／BASE）</h3><p>開設、決済・配送設定、商品登録20点まで。目安21日、148,000円（税別）。プラットフォーム選びは、商品数・発送方法・将来の拡張で判断します。</p></div>
+    <div class="card"><h3>商品ページの作り込み</h3><p>売れている商品から順に、説明文・写真の見せ方・FAQを整えます。「何が・誰に・どう良いか」が3秒で分かる形に。</p></div>
+    <div class="card"><h3>SNS運用代行「Socialt」</h3><p>新商品・入荷・お店の日常を月8投稿から。止まっていたアカウントの再開が専門です。</p></div>
+    <div class="card"><h3>Googleマップ・LINE公式の整備</h3><p>営業時間・写真・口コミ返信の土台と、LINE公式の開設・配信文の作成。来店前のお客様の不安を先に消します。</p></div>
   </div>
-</div>
+  <div class="note-box"><b>正直な基準：</b>まだ実店舗・DM・マルシェ等で売れた実績がない商品は、EC制作から始めることをお勧めしません。先にHP／LPで受け皿を作り、反応を見てからEC化する順番を診断でお伝えします。</div>
+  <div class="card" style="margin-top:18px"><h3>制作イメージ ― ECの作業風景</h3><div class="thumb img-ec" style="height:260px;border-radius:12px;background-size:cover;background-position:center"></div><p style="margin-top:12px">商品登録は「並べる」だけでは売れません。写真の順番、説明の最初の2行、送料と届く日の明記。この3点で離脱が大きく変わります。※写真はイメージです。</p></div>
+</div></section>
 
-<section class="band terra-tint">
-  <div class="wrap">
-    <div class="eyebrow reveal" style="color:var(--terra)">Problems</div>
-    <h2 class="reveal">店舗・ECでよくある「止まり方」</h2>
-    <div style="height:28px"></div>
-    <div class="pains">
-      <div class="pain reveal"><b>ネットショップを開いただけ</b>BASEやShopifyに登録したけれど、商品登録と更新が止まって売れていない。</div>
-      <div class="pain reveal"><b>商品ページが「名前と価格」だけ</b>誰のための、どんな場面の商品か。売れている店が書いている情報が抜けている。</div>
-      <div class="pain reveal"><b>Instagramと店がつながっていない</b>投稿はしているのに、プロフィールから買う・予約する導線がない。</div>
-      <div class="pain reveal"><b>Googleマップが放置状態</b>営業時間や写真が古く、口コミへの返信もなし。近くの検索で選ばれにくい。</div>
-      <div class="pain reveal"><b>LINE公式を作ったまま</b>友だちは集めたが配信が止まり、クーポンもお知らせも届いていない。</div>
-      <div class="pain reveal"><b>店主が全部やっている</b>投稿も更新も店主の片手間。本業の接客と仕込みに集中できない。</div>
-    </div>
+<section id="diagnosis"><div class="wrap">
+  <div class="diag reveal">
+    <div class="eyebrow">Free Diagnosis</div>
+    <h2>まずは無料診断から</h2>
+    <p>HP／EC／SNSのいずれか（複数可）のURLをお送りください。状態と「直す順番」を1枚のレポートにまとめ、48時間以内にお送りします。売り込みの電話はしません。診断の内容はご自身で直していただいて構いません。ログイン情報をお聞きすることはありません。</p>
+    <form id="diag-form">
+      <label>会社名・店舗名 <span>（必須）</span></label>
+      <input type="text" name="company" required placeholder="例：○○工業株式会社">
+      <label>HP／EC／SNSのURL <span>（必須・1つ以上）</span></label>
+      <input type="text" name="url" required placeholder="例：https://www.instagram.com/xxxxx/">
+      <label>メールアドレス <span>（必須・診断レポートの送付先）</span></label>
+      <input type="email" name="email" required placeholder="例：info@example.co.jp">
+      <label>気になっていること <span>（任意）</span></label>
+      <textarea name="concern" rows="3" placeholder="例：HPが古く、SNSは半年止まっている"></textarea>
+      <button class="btn gold" type="submit" style="width:100%;margin-top:20px;font-size:17px">無料診断を申し込む</button>
+      <p id="form-status"></p>
+    </form>
   </div>
-</section>
+</div></section>
 
-<section id="ec">
+<footer>
   <div class="wrap">
-    <div class="eyebrow reveal" style="color:var(--terra)">Services for Shop / EC</div>
-    <h2 class="reveal">店舗・EC向けに提供するもの</h2>
-    <div style="height:28px"></div>
-    <div class="grid" style="gap:18px">
-      <div class="svc reveal"><div class="icon">🛒</div><div><h3>ECサイト制作</h3><p>Shopify／BASEの開設、決済・配送・特商法表記の設定、商品登録20点まで込み。BASEで足りるのかShopifyが要るのかは、診断で正直にお伝えします。</p></div><div class="price"><b>148,000円〜</b><span>制作（税別）</span></div></div>
-      <div class="svc reveal"><div class="icon">🏷️</div><div><h3>商品ページの作り込み</h3><p>売れている商品から順に、説明文・使い方・よくある質問・写真の見せ方を整えます。ECは「作る」より「商品ページ」で差がつきます。</p></div><div class="price"><b>月20,000円〜</b><span>ライトに含む</span></div></div>
-      <div class="svc reveal"><div class="icon">📱</div><div><h3>SNS運用代行「Socialt」</h3><p>商品とお店の日常を月8投稿から。プロフィールからEC・予約へつながる導線までセットで整えます。</p></div><div class="price"><b>月20,000円〜</b><span>ライトに含む</span></div></div>
-      <div class="svc reveal"><div class="icon">📍</div><div><h3>Googleマップ・LINE公式の整備</h3><p>ビジネスプロフィールの情報・写真の更新、口コミ返信、投稿代行。LINEは開設と配信文の作成まで。</p></div><div class="price"><b>月100,000円〜</b><span>プレミアムに含む</span></div></div>
-    </div>
-    <p class="note reveal">正直にお伝えする基準：店頭やDM・マルシェ等で「まだ売れたことがない商品」のEC化は、先に実店舗やHPでの受け皿づくりから始める順番をお勧めします。売る順番を間違えると、制作費だけが残ります。</p>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="diag reveal" id="diagnosis">
-      <div class="diag-grid">
-        <div><h2>店舗・EC向け 無料診断</h2><p>お店のホームページ／EC／SNSのURLをお送りください。「買える形になっているか」の観点で、直す順番を1枚にまとめ、48時間以内にお送りします。</p><p style="margin-top:16px">・診断だけの利用で構いません<br>・売り込みの電話はしません</p></div>
-        <form class="diag-form" id="diag-form">
-          <label>店舗名・屋号 <span>（必須）</span></label><input type="text" name="会社名" required placeholder="例：○○商店">
-          <label>店舗／EC／SNSのURL <span>（必須）</span></label><input type="url" name="対象URL" required placeholder="例：https://www.instagram.com/xxxxx/">
-          <label>メールアドレス <span>（必須）</span></label><input type="email" name="メールアドレス" required placeholder="例：info@example.jp">
-          <label>区分</label><select name="区分"><option>店舗・EC</option><option>BtoB（建設・製造・設備など）</option><option>その他・分からない</option></select>
-          <label>気になっていること <span>（任意）</span></label><textarea name="気になっていること" rows="3" placeholder="例：BASEを開いたが商品登録が止まっている"></textarea>
-          <button class="btn terra" type="submit">無料診断を申し込む</button>
-          <p class="form-note">送信された情報は診断レポートの作成と返信のためにのみ使用します。ログイン情報をお聞きすることはありません。</p>
-          <p id="form-status"></p>
-        </form>
+    <div class="cols">
+      <div>
+        <span class="brand-name" style="font-size:18px;font-weight:900">nao</span>
+        <p style="margin-top:10px">中小企業のホームページ・EC・SNS運用支援。<br>止まったウェブを、月額で動かし直します。</p>
+      </div>
+      <div>
+        <h4>サービス</h4>
+        <a href="../b2b/">BtoB中小向け</a>
+        <a href="../shop-ec/">店舗・EC向け</a>
+        <a href="../sns/">SNS運用代行「Socialt」</a>
+        <a href="../blog/">ブログ</a>
+        <a href="../index.html#pricing">料金</a>
+      </div>
+      <div>
+        <h4>ご案内</h4>
+        <a href="../index.html#flow">進め方</a>
+        <a href="../index.html#faq">よくある質問</a>
+        <a href="../index.html#about">運営者について</a>
+        <a href="../index.html#diagnosis">無料診断を受ける</a>
       </div>
     </div>
+    <div class="tokusho">
+      特定商取引法に基づく表記｜販売事業者：nao（個人・フリーランス／屋号なし）／運営責任者：nao／所在地・電話番号：請求があった場合に遅滞なく開示します／販売価格：各ページに税別で表示／支払方法：銀行振込（着手50%・納品50%の分割可）／解約：最低契約3ヶ月、以降は1ヶ月単位・違約金なし<br>
+      ※サイト内の写真はイメージです（AI生成画像を使用しています）。架空の実績・お客様の声は掲載していません。<br>
+      © 2026 nao. All rights reserved.
+    </div>
   </div>
-</section>
-
-<footer class="site"><div class="wrap">
-  <div class="foot-grid">
-    <div><h3>nao ― ウェブ運用支援</h3><p>中小企業・店舗のホームページ／EC／SNS／ブログの制作と月額運用支援。</p></div>
-    <div><h3 style="font-size:16px">サービス</h3><ul><li><a href="../b2b/">BtoB中小向け</a></li><li><a href="../shop-ec/">店舗・EC向け</a></li><li><a href="../sns/">SNS運用代行「Socialt」</a></li><li><a href="../blog/">ブログ</a></li></ul></div>
-    <div><h3 style="font-size:16px">ご案内</h3><ul><li><a href="../index.html#pricing">料金</a></li><li><a href="../index.html#flow">進め方</a></li><li><a href="../index.html#faq">FAQ</a></li><li><a href="#diagnosis">無料診断</a></li></ul></div>
-  </div>
-  <dl class="tokusho"><dt>特定商取引法に基づく表記</dt><dd>販売事業者：nao（個人）／運営責任者：nao<br>所在地・電話番号：請求があった場合に遅滞なく開示します<br>販売価格：制作 50,000円〜（税別）／月額 20,000円〜（税別）。プラットフォーム利用料・決済手数料は実費として別途お客様のご負担<br>支払方法：銀行振込／解約：最低契約3ヶ月経過後は1ヶ月単位で可。違約金なし</dd></dl>
-  <p class="copyright">© 2026 nao. All rights reserved.</p>
-</div></footer>
+</footer>
 <script src="../assets/main.js"></script>
 </body>
 </html>
