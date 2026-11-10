@@ -3,83 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ブログ｜中小企業のホームページ・EC・SNS運用の実例と数字｜nao</title>
-<meta name="description" content="ホームページ更新、SNS運用、EC制作の実務を、実例と数字で書くブログ。BtoB向けと店舗・EC向けの2カテゴリ、月2本更新。自分の革小物ECの制作過程と数字も公開します。">
+<title>ブログ｜中小企業のウェブ運用ノウハウ｜nao</title>
+<meta name="description" content="中小企業のホームページ・EC・SNS運用のブログ。実例と数字で書きます。BtoB向け／店舗・EC向け／実演記録の3カテゴリ、月2本ペースで更新。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/img.css">
 </head>
 <body>
+<!-- BRAND: 屋号が決まったら .brand-name と title・運営者表記を差し替える -->
 <header class="site">
   <div class="header-in">
-    <a class="brand" href="../index.html"><span class="brand-mark">n</span><span><span class="brand-name">nao</span><br><span class="brand-sub">ホームページ・EC・SNS運用支援</span></span></a>
-    <button class="nav-toggle" aria-label="メニュー">☰</button>
-    <nav class="main"><ul>
-      <li><a href="../index.html">ホーム</a></li>
-      <li class="has-drop"><a href="../index.html#services">サービス ▾</a>
-        <div class="drop">
-          <div class="drop-label">対象から選ぶ</div>
-          <a href="../b2b/"><b>BtoB中小向け</b><span>建設・製造・設備 ― HPと採用SNSの立て直し</span></a>
-          <a href="../shop-ec/"><b>店舗・EC向け</b><span>飲食・小売・美容・食品 ― 集客とネット販売</span></a>
-          <div class="drop-label">サービスから選ぶ</div>
-          <a href="../sns/"><b>SNS運用代行「Socialt」</b><span>止まったSNSの再開と月8投稿からの運用</span></a>
-          <a href="../index.html#services"><b>ホームページ制作・更新</b><span>制作9.8万円〜／更新は月額で代行</span></a>
-          <a href="../shop-ec/#ec"><b>ECサイト制作</b><span>Shopify／BASE・商品登録20点まで込み</span></a>
-          <a href="../blog/"><b>ブログ・記事制作</b><span>SEO／AI検索に拾われる記事を月2本</span></a>
-        </div></li>
-      <li><a href="../index.html#pricing">料金</a></li>
-      <li><a href="../blog/">ブログ</a></li>
-      <li><a href="../index.html#flow">進め方</a></li>
-      <li><a href="../index.html#faq">FAQ</a></li>
-      <li><a href="../index.html#about">運営者</a></li>
-      <li class="header-cta"><a class="btn sm" href="../index.html#diagnosis">無料診断</a></li>
-    </ul></nav>
+    <a class="brand" href="../index.html"><span class="brand-mark">n</span><span><span class="brand-name">nao</span><span class="brand-sub">ホームページ・EC・SNS運用支援</span></span></a>
+    <button class="nav-toggle" aria-label="メニュー" aria-expanded="false">☰</button>
+    <nav class="main" aria-label="グローバルナビ">
+      <ul>
+        <li><a href="../index.html">ホーム</a></li>
+        <li class="has-drop"><button type="button" aria-haspopup="true">サービス ▾</button>
+          <div class="drop">
+            <div class="drop-label">対象から選ぶ</div>
+            <a href="../b2b/"><b>BtoB中小向け</b><span>建設・製造・設備 ― HPと採用SNSの立て直し</span></a>
+            <a href="../shop-ec/"><b>店舗・EC向け</b><span>飲食・小売・美容・食品 ― 集客とネット販売</span></a>
+            <div class="drop-label">サービスから選ぶ</div>
+            <a href="../sns/"><b>SNS運用代行「Socialt」</b><span>止まったSNSの再開と月8投稿からの運用</span></a>
+            <a href="../index.html#services"><b>ホームページ制作・更新</b><span>制作9.8万円〜／更新は月額で代行</span></a>
+            <a href="../shop-ec/#ec"><b>ECサイト制作</b><span>Shopify／BASE・商品登録20点まで込み</span></a>
+            <a href="../blog/"><b>ブログ・記事制作</b><span>SEO／AI検索に拾われる記事を月2本</span></a>
+          </div>
+        </li>
+        <li><a href="../index.html#pricing">料金</a></li>
+        <li><a href="../blog/">ブログ</a></li>
+        <li><a href="../index.html#flow">進め方</a></li>
+        <li><a href="../index.html#faq">FAQ</a></li>
+        <li><a href="../index.html#about">運営者</a></li>
+        <li class="header-cta"><a class="btn sm gold" href="../index.html#diagnosis">無料診断</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
-<div class="page-hero">
-  <div class="wrap">
-    <div class="eyebrow">Blog</div>
-    <h1>実例と数字で書く、<br>ウェブ運用のブログ。</h1>
-    <p class="lead">月2本ペースで更新します。カテゴリは入口と同じ2つ（BtoB／店舗・EC）と、自分の店で試す「実演記録」。一般論ではなく、手元の実例と数字を必ず1つ入れます。</p>
+<div class="page-hero"><div class="bg img-ec"></div><div class="wrap">
+  <div class="eyebrow">Blog</div><h1>実例と数字で書く、<br>ウェブ運用のブログ。</h1><p class="lead">月2本ペースで更新します。AIの量産記事ではなく、実際の診断・運用で分かったことだけを書きます。すべての記事の末尾に、無料診断へのご案内を置いています。</p>
+  <div class="hero-cta" style="margin-top:26px"><a class="btn gold" href="../index.html#diagnosis">無料診断を受ける</a><a class="btn ghost" href="../index.html#pricing">料金を見る</a></div>
+  <p class="img-note">※写真はイメージです</p>
+</div></div>
+<section><div class="wrap">
+  <div class="posts" style="margin-top:0">
+    <a class="post reveal on" href="homepage-3points/"><div class="thumb img-hero"><span class="cat">BtoB向け</span></div><div class="body"><h3>ホームページを更新できない会社が、まず直す3か所</h3><div class="date">2026年11月9日</div></div></a>
+    <a class="post reveal on" href="../index.html#diagnosis"><div class="thumb img-ec"><span class="cat">店舗・EC向け</span></div><div class="body"><h3>EC制作の費用相場と、BASE／Shopifyの選び分け</h3><div class="date">近日公開</div><div class="soon">記事を準備中です</div></div></a>
+    <a class="post reveal on" href="../index.html#diagnosis"><div class="thumb img-shop"><span class="cat">店舗・EC向け</span></div><div class="body"><h3>商品ページで売れている店が書いている5項目</h3><div class="date">近日公開</div><div class="soon">記事を準備中です</div></div></a>
+    <a class="post reveal on" href="../index.html#diagnosis"><div class="thumb img-shop"><span class="cat">実演記録</span></div><div class="body"><h3>自分の革小物ECを作る過程と数字を公開します</h3><div class="date">近日公開</div><div class="soon">記事を準備中です</div></div></a>
+    <a class="post reveal on" href="../index.html#diagnosis"><div class="thumb img-construction"><span class="cat">BtoB向け</span></div><div class="body"><h3>採用SNSが半年止まる会社に共通する、たった1つの原因</h3><div class="date">近日公開</div><div class="soon">記事を準備中です</div></div></a>
   </div>
-</div>
+</div></section>
 
-<section>
-  <div class="wrap">
-    <div class="eyebrow reveal">BtoB</div>
-    <h2 class="reveal">ブログ／BtoB</h2>
-    <div style="height:24px"></div>
-    <div class="blog-grid">
-      <article class="post reveal"><div class="thumb"><span>ホームページを<br>更新できない会社が<br>まず直す3か所</span></div><div class="body"><span class="cat">ブログ／BtoB</span><h3>ホームページを更新できない会社がまず直す3か所</h3><p>取引先と求職者が見る順番は決まっています。全部を直さなくても効く3か所を、確認の目線で整理します。</p><span class="soon">近日公開</span></div></article>
-      <article class="post reveal"><div class="thumb"><span>SNS運用代行、<br>月2万円で頼めること・<br>頼めないこと</span></div><div class="body"><span class="cat">ブログ／BtoB</span><h3>SNS運用代行、月2万円で頼めること・頼めないこと</h3><p>価格の差は範囲の差です。自社サービス（Socialt）の線引きを、そのまま判断材料として公開します。</p><span class="soon">近日公開</span></div></article>
-      <article class="post reveal"><div class="thumb"><span>製造業のInstagram、<br>求職者が見ているのは<br>投稿のここ</span></div><div class="body"><span class="cat">ブログ／BtoB</span><h3>製造業のInstagram、求職者が見ているのは投稿のここ</h3><p>フォロワー数ではありません。応募の前に確認されるのは、更新の続き方と現場の人の顔です。</p><span class="soon">近日公開</span></div></article>
-      <article class="post reveal"><div class="thumb"><span>AI検索で自社が<br>出てこない理由と<br>HPに足すテキスト</span></div><div class="body"><span class="cat">ブログ／BtoB</span><h3>AI検索で自社が出てこない理由とHPに足すテキスト</h3><p>AIは「料金・対象・条件が文章で書かれたページ」を拾います。足りないテキストの具体例を出します。</p><span class="soon">近日公開</span></div></article>
-    </div>
-    <div style="height:52px"></div>
-    <div class="eyebrow reveal" style="color:var(--terra)">Shop / EC</div>
-    <h2 class="reveal">ブログ／店舗・EC</h2>
-    <div style="height:24px"></div>
-    <div class="blog-grid">
-      <article class="post reveal"><div class="thumb shop"><span>ECサイト制作の<br>費用相場と<br>BASE／Shopifyの選び分け</span></div><div class="body"><span class="cat shop">ブログ／店舗・EC</span><h3>ECサイト制作の費用相場とBASE／Shopifyの選び分け</h3><p>無料で始められるのに制作費を払う意味はどこか。相場と選び分けの基準を並べます。</p><span class="soon">近日公開</span></div></article>
-      <article class="post reveal"><div class="thumb shop"><span>商品ページの説明文、<br>売れている店が<br>書いている5項目</span></div><div class="body"><span class="cat shop">ブログ／店舗・EC</span><h3>商品ページの説明文、売れている店が書いている5項目</h3><p>名前と価格だけのページから抜け出すために、最低限そろえる情報を実例で示します。</p><span class="soon">近日公開</span></div></article>
-      <article class="post reveal"><div class="thumb shop"><span>Googleマップと<br>InstagramとLINE、<br>店舗はどれから</span></div><div class="body"><span class="cat shop">ブログ／店舗・EC</span><h3>GoogleマップとInstagramとLINE、店舗はどれから始めるべきか</h3><p>全部はできません。お店の状態別に、最初の一つの選び方を決めます。</p><span class="soon">近日公開</span></div></article>
-      <article class="post reveal"><div class="thumb proof"><span>自分の革小物で<br>ECを実際に作る<br>過程と数字</span></div><div class="body"><span class="cat" style="color:#5b4a8a">ブログ／実演記録</span><h3>自分の革小物でECを実際に作る過程と数字</h3><p>趣味の革小物を題材に、EC制作の全過程と費用、公開後の数字をそのまま出していく連載です。</p><span class="soon">近日公開</span></div></article>
-    </div>
-    <div style="height:44px"></div>
-    <div class="total-box reveal"><h3>読んで終わりにしないために</h3><p>記事の内容は、そのまま無料診断で自社に当てはめてお渡しできます。「うちの場合はどこからか」を知りたい方は、URLを1つ送ってください。48時間以内に1枚でお返しします。</p><p style="margin-top:14px"><a class="btn sm" href="../index.html#diagnosis">無料診断を受ける</a></p></div>
+<section id="diagnosis"><div class="wrap">
+  <div class="diag reveal">
+    <div class="eyebrow">Free Diagnosis</div>
+    <h2>まずは無料診断から</h2>
+    <p>HP／EC／SNSのいずれか（複数可）のURLをお送りください。状態と「直す順番」を1枚のレポートにまとめ、48時間以内にお送りします。売り込みの電話はしません。診断の内容はご自身で直していただいて構いません。ログイン情報をお聞きすることはありません。</p>
+    <form id="diag-form">
+      <label>会社名・店舗名 <span>（必須）</span></label>
+      <input type="text" name="company" required placeholder="例：○○工業株式会社">
+      <label>HP／EC／SNSのURL <span>（必須・1つ以上）</span></label>
+      <input type="text" name="url" required placeholder="例：https://www.instagram.com/xxxxx/">
+      <label>メールアドレス <span>（必須・診断レポートの送付先）</span></label>
+      <input type="email" name="email" required placeholder="例：info@example.co.jp">
+      <label>気になっていること <span>（任意）</span></label>
+      <textarea name="concern" rows="3" placeholder="例：HPが古く、SNSは半年止まっている"></textarea>
+      <button class="btn gold" type="submit" style="width:100%;margin-top:20px;font-size:17px">無料診断を申し込む</button>
+      <p id="form-status"></p>
+    </form>
   </div>
-</section>
+</div></section>
 
-<footer class="site"><div class="wrap">
-  <div class="foot-grid">
-    <div><h3>nao ― ウェブ運用支援</h3><p>中小企業・店舗のホームページ／EC／SNS／ブログの制作と月額運用支援。</p></div>
-    <div><h3 style="font-size:16px">サービス</h3><ul><li><a href="../b2b/">BtoB中小向け</a></li><li><a href="../shop-ec/">店舗・EC向け</a></li><li><a href="../sns/">SNS運用代行「Socialt」</a></li><li><a href="../blog/">ブログ</a></li></ul></div>
-    <div><h3 style="font-size:16px">ご案内</h3><ul><li><a href="../index.html#pricing">料金</a></li><li><a href="../index.html#flow">進め方</a></li><li><a href="../index.html#faq">FAQ</a></li><li><a href="../index.html#diagnosis">無料診断</a></li></ul></div>
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <span class="brand-name" style="font-size:18px;font-weight:900">nao</span>
+        <p style="margin-top:10px">中小企業のホームページ・EC・SNS運用支援。<br>止まったウェブを、月額で動かし直します。</p>
+      </div>
+      <div>
+        <h4>サービス</h4>
+        <a href="../b2b/">BtoB中小向け</a>
+        <a href="../shop-ec/">店舗・EC向け</a>
+        <a href="../sns/">SNS運用代行「Socialt」</a>
+        <a href="../blog/">ブログ</a>
+        <a href="../index.html#pricing">料金</a>
+      </div>
+      <div>
+        <h4>ご案内</h4>
+        <a href="../index.html#flow">進め方</a>
+        <a href="../index.html#faq">よくある質問</a>
+        <a href="../index.html#about">運営者について</a>
+        <a href="../index.html#diagnosis">無料診断を受ける</a>
+      </div>
+    </div>
+    <div class="tokusho">
+      特定商取引法に基づく表記｜販売事業者：nao（個人・フリーランス／屋号なし）／運営責任者：nao／所在地・電話番号：請求があった場合に遅滞なく開示します／販売価格：各ページに税別で表示／支払方法：銀行振込（着手50%・納品50%の分割可）／解約：最低契約3ヶ月、以降は1ヶ月単位・違約金なし<br>
+      ※サイト内の写真はイメージです（AI生成画像を使用しています）。架空の実績・お客様の声は掲載していません。<br>
+      © 2026 nao. All rights reserved.
+    </div>
   </div>
-  <dl class="tokusho"><dt>特定商取引法に基づく表記</dt><dd>販売事業者：nao（個人）／運営責任者：nao<br>所在地・電話番号：請求があった場合に遅滞なく開示します<br>販売価格：制作 50,000円〜（税別）／月額 20,000円〜（税別）。実費は別途お客様のご負担<br>支払方法：銀行振込／解約：最低契約3ヶ月経過後は1ヶ月単位で可。違約金なし</dd></dl>
-  <p class="copyright">© 2026 nao. All rights reserved.</p>
-</div></footer>
+</footer>
 <script src="../assets/main.js"></script>
 </body>
 </html>
