@@ -10,3 +10,5 @@
 - [ECサイト制作の費用と、BASE／Shopifyの選び分け｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/ec-ryokin-base-shopify/)
 - [ホームページ制作の費用相場｜店舗・小規模事業者が総額で比べる方法｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/homepage-hiyou-souba/)
 - [中小企業のホームページ制作、失敗しない選び方と費用相場｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/homepage-seisaku-chusho/)
+- [止まったInstagramを再開する前に｜BtoB中小企業が月8投稿で続ける設計｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/instagram-saikai-sekkei/)
+- [ホームページを作っても問い合わせが来ない会社の共通点｜導線・CTA・計測の3点検｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/homepage-toiawase-konai-genin/)
