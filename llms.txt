@@ -6,6 +6,7 @@
 - [店舗・EC向け｜ECサイト制作とSNS運用｜nao](https://solederlego8-a11y.github.io/nao-web-support/shop-ec/)
 - [SNS運用代行「Socialt」｜止まったSNSの再開専門｜nao](https://solederlego8-a11y.github.io/nao-web-support/sns/)
 - [ブログ｜中小企業のウェブ運用ノウハウ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/)
+- [中小企業のホームページ制作費用｜見積もりで確認すべき内訳と追加費用の出どころ](https://solederlego8-a11y.github.io/nao-web-support/blog/homepage-mitsumori-naiyo-kakunin/)
 - [ホームページを更新できない会社が、まず直す3か所｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/homepage-3points/)
 - [ECサイト制作の費用と、BASE／Shopifyの選び分け｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/ec-ryokin-base-shopify/)
 - [ホームページ制作の費用相場｜店舗・小規模事業者が総額で比べる方法｜ブログ｜nao](https://solederlego8-a11y.github.io/nao-web-support/blog/homepage-hiyou-souba/)
